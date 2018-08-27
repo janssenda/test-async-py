@@ -4,15 +4,6 @@ import shutil
 import cv2
 import os
 
-
-
-print(os.getcwd())
-
-
-
-
-
-
 def writeout(filename):
 
     BufferCopy = ["a", "b", "c", "c"]

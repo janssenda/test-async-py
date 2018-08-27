@@ -1,0 +1,2 @@
+T-	N	Area	Perim	Max	Avg	A/N	M/A	AvgN	Time
+abcc

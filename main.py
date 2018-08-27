@@ -1,8 +1,6 @@
 import gevent.monkey
 import time
 
-gevent.monkey.patch_all()
-
 
 def slowfunction(count):
     print('Starting job #: %i' % count)
@@ -10,6 +8,9 @@ def slowfunction(count):
     print('Done with job #: %i' % count)
 
 
+
+
+gevent.monkey.patch_all(slowfunction)
 x = 1
 while True:
 

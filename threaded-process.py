@@ -7,6 +7,8 @@ import shutil
 import cv2
 import os
 
+
+
 # def acker(m, n, s="%s"):
 #     if m == 0:
 #         return n + 1
@@ -53,4 +55,4 @@ def main():
             #threading.Thread(target=writeout, args=["data"+str(i)+".txt"]).start()
         time.sleep(1)
 
-main()
+#main()
